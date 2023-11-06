@@ -1,0 +1,10 @@
+class Car:
+    def _init_(self, make, model, year)
+    self.make = make
+    self. _model = model #protected attribute
+    self.year = year
+    
+    #when we protect an attribute it is not accessible outside of the class
+    
+    def get_model(self):
+        return self._model
